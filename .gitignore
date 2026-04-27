@@ -1,0 +1,23 @@
+# Ambientes virtuais
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Banco de dados local
+*.db
+
+# VSCode
+.vscode/
+
+# Arquivos sensíveis
+.env
+instance/
+.streamlit
+echo .streamlit/secrets.toml > .gitignore
+echo venv/ >> .gitignore
+echo __pycache__/ >> .gitignore
+echo *.pyc >> .gitignore
